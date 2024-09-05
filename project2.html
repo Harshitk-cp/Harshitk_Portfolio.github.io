@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Post Name</title>
+	<title>DNS CLI</title>
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
@@ -26,9 +26,9 @@
 
 </head>
 <body>
-	<div class="nav-wrapper">
+	<section class="s1">
+        <div class="nav-wrapper">
 
-		<!-- Link around dots-wrapper added after tutorial video -->
 		<a href="index.html">
 			<div class="dots-wrapper">
 				<div id="dot-1" class="browser-dot"></div>
@@ -36,85 +36,72 @@
 				<div id="dot-3" class="browser-dot"></div>
 			</div>
 		</a>
-
-		<ul id="navigation">
-			<li><a href="index.html#contact">Contact</a></li>
-
-		</ul>
 	</div>
 
 	<div class="main-container">
 		<br>
 
 		<div class="img-container">
-			<img src="images/project2.jpg">
+			<img src="images/termtify.png">
 		</div>
-		
-		<h3>Online Coffee Ordering Application</h3>
 
-		<p>Instead of using Kotlin I wanted to build a project in Java so i made this coffee shopping app. It takes details of coffee from a firebase Database as a json class of objects and shows it in a Recycler View.
-		<br>
-		<br>
-		By clicking on any of the item we can add it to cart and in Cart Activity we can increase or decrease quantity. Then finally inside Preview Activity user can place their order.
-		<br>
-		<br>
-		I've used multiple functionality in this project such as recycler view, navigation view,  user Authentication, Databses, etc.
-		<br>
-		<br>
-		This project is close for now as I don't have anything to add to this project.
-		<br/>
-		<br/>
-		<a target="_blank" href="https://github.com/Harshitk-cp/CafeShopApp">Find this project's Repository</a>
-	</p>
+		<h3>Termtify</h3>
 
-		<h5>Technologies:</h5>
-		<ul>
-			<li>- Android Studio</li>
-			<li>- Java</li>
-			<li>- Glide Library</li>
-			<li>- Firebase</li>
-			<li>- XML</li>
-			<li>- Eventbus</li>
-			<li>- Butterknife</li>
-		</ul>
+		<a class="project-desc">
+    Termtify is a Terminal based spotify application which uses spotify API to bring your favourite music player right in your terminal.
+    <br>
+    <br>
+    The application uses the Spotify API to authenticate users and access their playlists, tracks, and albums. Users can search for songs, play tracks, and create playlists directly from the terminal. Key features include playing music, searching for tracks, and viewing album.
+    <br>
+    <br>
+    The application is built using the Tview library in Go and is designed to be lightweight and easy to use, with a simple and intuitive interface.
+    <br>
+    <br/>
+    <a target="_blank" href="https://github.com/Harshitk-cp/termtify">Github</a>
+</a>
 
 
-		<h5>SnapShots</h5>
-		
-		
-		<div class="img-container">
-			<img src="images/project2_pic2.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project2_pic3.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project2_pic4.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project2_pic5.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project2_pic6.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project2_pic1.jpg">
-		</div>
-	
+    <h3>Challenges Faced</h3>
+    <a class="project-desc">
+        The main challenge faced during the development of this project was working with the Spotify API and implementing the authentication flow. The API requires users to authenticate using OAuth 2.0, which involves obtaining an access token and refreshing it periodically. Implementing this flow in a terminal-based application was challenging due to the lack of a web browser for user interaction.
+        <br>
+        <br>
+        Another major problem was handling the audio playback in the terminal. While there is no direct or official way to play media right in the terminal, there are few open source projects like LIBRESPOT and SPOTIFYD which can act as a spotify client so we can play music in the terminal.
+        <br>
+        <br>
+        For now the application utilises the API to play music to any active spotify devices connected to the user's account. But in future i plan to implement the audio playback in the terminal itself.
+        <br>
+    </a>
+
+		<div class="right-column">
+            <div id="preview-shadow">
+                <div id="preview">
+                    <div id="corner-tl" class="corner"></div>
+                    <div id="corner-tr" class="corner"></div>
+                    <h3>Leanings</h3>
+                    <a>
+                        Making TUI applications
+                        <br>
+                        Working with Spotify API
+                        <br>
+                        Research on LIBRESPOT and SPOTIFYD
+                        <br>
+                        Research on Audio Playback in terminal
+                    </a>
 
 
-		
+
+
+                    <div id="corner-br" class="corner"></div>
+                    <div id="corner-bl" class="corner"></div>
+                </div>
+            </div>
+        </div>
+
+
+
 	</div>
+    </section>
 
 </body>
 </html>

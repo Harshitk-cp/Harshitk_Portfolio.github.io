@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Post Name</title>
+	<title>DNS CLI</title>
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
@@ -26,9 +26,9 @@
 
 </head>
 <body>
-	<div class="nav-wrapper">
+	<section class="s1">
+        <div class="nav-wrapper">
 
-		<!-- Link around dots-wrapper added after tutorial video -->
 		<a href="index.html">
 			<div class="dots-wrapper">
 				<div id="dot-1" class="browser-dot"></div>
@@ -36,70 +36,72 @@
 				<div id="dot-3" class="browser-dot"></div>
 			</div>
 		</a>
-
-		<ul id="navigation">
-			<li><a href="index.html#contact">Contact</a></li>
-
-		</ul>
 	</div>
 
 	<div class="main-container">
 		<br>
 
 		<div class="img-container">
-			<img src="images/project1.jpg">
-		</div>
-		
-		<h3>Live Room Chat Application</h3>
-
-		<p>I started this project recently to test my Node.js skill I had learned in past few months.
-		<br>
-		<br>
-		This app works on both backend and front end. The user inputs their name to enter the chatting room and the server connects them to a localhost server.
-		<br>
-		<br>
-		Once inside the room every user that is already inside the server can communicate with one other via texting or sharing images. Their is no database involved in this so, every communication happens through live servers.
-	
-		The images is shared between devices with base64 encoding.
-		<br>
-		<br>
-		I only recently started this application and will add new features to it in coming future so stay connected to check them out. 
-		<br/>
-		<br/>
-		<a target="_blank" href="https://github.com/Harshitk-cp/ChatRoom">Check out project Repository</a>
-	</p>
-
-		<h5>Technologies:</h5>
-		<ul>
-			<li>- Android Studio</li>
-			<li>- Node.js</li>
-			<li>- Javascript</li>
-			<li>- Java</li>
-			<li>- XML</li>
-			<li>- VS Code</li>
-		</ul>
-
-
-		<h5>screen for entring name</h5>
-		<div class="img-container">
-			<img src="images/project1_pic4.png">
+			<img src="images/dnscli.png">
 		</div>
 
-		<h6>Server gets notified every time there's a new connection detected.</h5>
-		<div class="img-container">
-			<img src="images/project1_pic3.png">
-		</div>
+		<h3>DNS Server and CLI</h3>
 
-		<h5>Sender</h5>
-		<div class="img-container">
-			<img src="images/project1_pic1.jpg">
-		</div>
+		<a class="project-desc">
+    This project has a  DNS server and a command-line interface (CLI) tool for querying DNS records. Which both works independentally as well.
+    <br>
+    <br>
+    The server, implemented using a DNS library, supports both standard DNS and DNS over HTTPS (DoH). It includes features such as caching, ad-blocking, and reverse DNS resolution.
+    <br>
+    <br>
+    The CLI tool built using Cobra CLI allows users to perform DNS queries and reverse lookups with various options. Key features include querying DNS servers for different record types, using DoH for queries, and enabling verbose output.
+    <br>
+    <br/>
+    <a target="_blank" href="https://github.com/Harshitk-cp/dns_cli">Github</a>
+</a>
 
-		<h5>Receiver</h5>
-		<div class="img-container">
-			<img src="images/project1_pic2.png">
-		</div>
+
+    <h3>WHY THIS?</h3>
+    <a class="project-desc">
+        The Domain Name System (DNS) is often referred to as the "phonebook of the internet." It translates human-readable domain names, like `google.com`, into IP addresses that computers use to identify each other on the network. Every time you visit a website, send an email, or use an online service, DNS is working behind the scenes to direct your request to the correct server.
+        <br>
+        <br>
+        This project holds significant value as it empowers you to run your own DNS server, providing greater control over your internet traffic. It also offers an ad-blocking feature by blocking query for known ad domains reducing risk of malicious sites. Additionally, caching DNS responses on your server reduces latency and load on upstream servers, leading to faster resolution of frequently accessed domains.
+        <br>
+        <br>
+        In terms of privacy, running your own DNS server ensures that your DNS queries are not being logged or monitored by external DNS providers. The DNS over HTTPS (DoH) feature further enhances privacy by encrypting your DNS queries, protecting them from being intercepted or tampered with by third parties.
+        <br>
+    </a>
+
+		<div class="right-column">
+            <div id="preview-shadow">
+                <div id="preview">
+                    <div id="corner-tl" class="corner"></div>
+                    <div id="corner-tr" class="corner"></div>
+                    <h3>Leanings</h3>
+                    <a>
+                        Making CLI applications
+                        <br>
+                        Working with DNS
+                        <br>
+                        Implementing LRU caching
+                        <br>
+                        Networking
+                    </a>
+
+
+
+
+                    <div id="corner-br" class="corner"></div>
+                    <div id="corner-bl" class="corner"></div>
+                </div>
+            </div>
+        </div>
+
+
+
 	</div>
+    </section>
 
 </body>
 </html>

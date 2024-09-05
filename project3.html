@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Post Name</title>
+	<title>DNS CLI</title>
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
@@ -26,9 +26,9 @@
 
 </head>
 <body>
-	<div class="nav-wrapper">
+	<section class="s1">
+        <div class="nav-wrapper">
 
-		<!-- Link around dots-wrapper added after tutorial video -->
 		<a href="index.html">
 			<div class="dots-wrapper">
 				<div id="dot-1" class="browser-dot"></div>
@@ -36,90 +36,67 @@
 				<div id="dot-3" class="browser-dot"></div>
 			</div>
 		</a>
-
-		<ul id="navigation">
-			<li><a href="index.html#contact">Contact</a></li>
-
-		</ul>
 	</div>
 
 	<div class="main-container">
 		<br>
 
 		<div class="img-container">
-			<img src="images/project3.jpg">
+			<img src="images/streamix.png">
 		</div>
-		
-		<h3>Apperal Search & Try on application</h3>
-
-		<p>This project uses some advance concepts like machine learning and image extraction which I'm still learning about so I made this application to test my skills.
-		<br>
-		<br>
-		This app inputs clothes of user's choice and shows results of similar clothes available online. once user selects the apperal of his/her choice user can user our virtual try-on feature to see how the said apperal will look on then.
-		<br>
-		<br>
-		This is a big project and took a lot of time to work on and is still under progress as there are multiple issues regarding image search and image extraction.
-		<br>
-		<br>
-		I started working on this project few months ago and have not gotten time to finish it but i'll be sure to complete it as I gain more knowledge regarding such subjects.
-		<br/>
-		<br/>
-		<a target="_blank" href="https://github.com/Harshitk-cp/Image_Search">Find this project's Repository</a>
-	</p>
-	</p>
-
-		<h5>Technologies:</h5>
-		<ul>
-			<li>- Android Studio</li>
-			<li>- Kotlin</li>
-			<li>- Glide Library</li>
-			<li>- Firebase</li>
-			<li>- XML</li>
-			<li>- ML </li>
-			<li>- Google Vision API</li>
-			<li>- Image Extraction </li>
-		</ul>
+            <h3>Streamix</h3>
+            <a class="project-desc">
+                This project is a Next.js-based live video streaming application with real-time audio and video capabilities using a miniature LiveKit for streaming services. It leverages Clerk for user management, Prisma and PostgreSQL for the database, and an RTMP server to handle live streaming. The RTMP server transcodes AAC audio to Opus and video to H264, ensuring compatibility with WebRTC for seamless communication between viewers.
+                <br>
+                <br>
+                This can be used for any kind of media streaming like casting entire screen or specific application like a gaming stream. Utilising OBS studio host can even play a downloaded video like movies and enjoy it with others.
+            </a>
 
 
-		<h5>SnapShots</h5>
-		<div class="img-container">
-			<img src="images/project3_pic1.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project3_pic2.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project3_pic3.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project3_pic4.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project3_pic5.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project3_pic6.jpg">
-		</div>
-		<br/>
-		<br/>
-		<div class="img-container">
-			<img src="images/project3_pic7.jpg">
-		</div>
+            <h3>Why RTMP and WebRTC?</h3>
+            <a class="project-desc">
+                RTMP (Real-Time Messaging Protocol) is widely used for ingesting live video streams, making it perfect for delivering content in real time. WebRTC, on the other hand, is ideal for peer-to-peer communication, enabling low-latency delivery of both audio and video. Combining RTMP and WebRTC allows for efficient real-time broadcasting, with RTMP ingest and WebRTC output ensuring compatibility across browsers and devices.
+                <br>
+                <br>
+                <a target="_blank" href="https://github.com/Harshitk-cp/streamix">CLIENT</a>
+                <br>
+                <a target="_blank" href="https://github.com/Harshitk-cp/rtmp_server">SERVER</a>
+                <br>
+                <a target="_blank" href="https://dev.to/harshitk/integrating-rtmp-and-webrtc-for-real-time-streaming-2lbb">Blog Post</a>
+            </a>
 
+            <div class="right-column">
+                <div id="preview-shadow">
+                    <div id="preview">
+                        <div id="corner-tl" class="corner"></div>
+                        <div id="corner-tr" class="corner"></div>
+                        <h3>Learnings</h3>
+                        <a>
 
-		
+                            Go concurrency and channels
+                            <br>
+                            WebSocket and REST API in GO
+                            <br>
+                            RTMP to WebRTC integration
+                            <br>
+                            Webhook notifications
+                            <br>
+                            Audio/Video transcoding
+                            <br>
+                            Performance optimization
+                            <br>
+                            In-memory encoding
+                            <br>
+                            FFMPEG
+                        </a>
 
-	</div>
+                        <div id="corner-br" class="corner"></div>
+                        <div id="corner-bl" class="corner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>

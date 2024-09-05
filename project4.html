@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DNS CLI</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+
+
+	<style type="text/css">
+		.img-container{
+			max-width: 600px;
+		}
+
+		img{
+			width: 100%
+		}
+
+	</style>
+
+</head>
+<body>
+	<section class="s1">
+        <div class="nav-wrapper">
+
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="main-container">
+		<br>
+
+		<div class="img-container">
+			<img src="images/compiler.png">
+		</div>
+            <h3>Code Compiler</h3>
+            <a class="project-desc">
+                A custom-built code compiler that utilizes LLVM to convert high-level code into optimized machine code for target architectures. This project includes lexical analysis, syntax parsing, semantic checks, and LLVM Intermediate Representation (IR) generation, followed by optimization and code generation, ensuring efficient and platform-specific executable outputs. The compiler supports a custom grammar, allowing users to write expressions, assign variables, and perform basic arithmetic operations.
+            </a>
+
+            <h4>Java and JNI Integration</h4>
+            <a class="project-desc">
+                This project started out as a basic parser for a custom language using Java. But as the project evolved i decided to make a full fledged compiler making use of LLVM in c++.
+                <br>
+                <br>
+                The project uses Java to handle front-end compilation stages, such as lexical and syntax analysis, where the Abstract Syntax Tree (AST) is generated. Using Java Native Interface (JNI), the AST is then passed to C++ code, where further processing takes place. The C++ module leverages LLVM to generate the Intermediate Representation (IR) from the AST. This JNI bridge allowed for seamless data transfer between Java and C++, combining the strengths of both languages for optimal compilation and code generation.
+            </a>
+
+            <h4>Learning from Reinventing the Wheel</h4>
+            <a class="project-desc">
+                While existing compilers like GCC and Clang provide robust solutions, building this compiler from scratch provided invaluable insights into the entire compilation process, from AST generation to LLVM IR creation. Reinventing the wheel isn't always a bad thing — it fosters a deep understanding of how different components interact, highlights performance trade-offs, and strengthens problem-solving skills by facing real-world challenges head-on.
+                <br>
+                <br>
+                <a target="_blank" href="https://github.com/Harshitk-cp/CodeCompiler">More about the project</a>
+            </a>
+
+
+
+            <div class="right-column">
+                <div id="preview-shadow">
+                    <div id="preview">
+                        <div id="corner-tl" class="corner"></div>
+                        <div id="corner-tr" class="corner"></div>
+                        <h3>Learnings</h3>
+                        <a>
+
+                            Practical use of Data structures
+                            <br>
+                            Optimization techniques for code
+                            <br>
+                            How does a compiler work
+                            <br>
+                            Creating a bridge b/w Java and C++
+                            <br>
+                            C++ and memory management
+                            <br>
+                        </a>
+                        <div id="corner-br" class="corner"></div>
+                        <div id="corner-bl" class="corner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
